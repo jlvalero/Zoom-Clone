@@ -1,10 +1,128 @@
-nav{
-    background-color: #3F3E52;
-    padding: 11px;
+#black-topbar {
+    height: 40px;
+    line-height: 40px;
+    background-color: #39394d;
+    position: relative;
+    z-index: 1;
     
-}
+    }
 
-.linksnav{
+    #black-topbar .list-inline>a {
+        padding-left: 15px;
+        
+        
+    }
+
+    .list-inline>a {
+        padding-right: 5px;
+        padding-left: 5px; 
+      
+    }
+
+    .list-inline>a{
+        color: white; 
+        line-height: 15px;
+        font-size: 11px;
+        font-weight: 300;
+        text-transform: uppercase;
+        text-decoration: none;
+        
+    }
+
+   .logo{
+       margin: 0px 10px 0px 24px;
+       border: 0;
+       height: 25px;
+       width: auto;
+       padding: 15px 5px;
+   }
+
+   .nav-bar{
+    border: solid 1px;
+    border-color: #e7e7e7;
+    max-height: 340px;
+    width: 100%;
+    border-top: 0;
+    box-shadow: none;
+    display: block!important;
+    height: auto!important;
+    padding-bottom: 0;
+    overflow: visible!important;
+    
+    
+   }
+
+   .botones{
+    color: #777777;
+    padding: 22px 9px;
+    align-items: flex-start;
+    flex-direction: row;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    
+   }
+
+   .botones:hover{
+   color:  #2073d9;
+   }
+
+   .botones-derecha{
+    color: #0956B5;
+    padding: 0px 15px 0px 5px;
+    text-decoration: none;
+    font-size: 12px;
+    
+   }
+
+   .navbar-derecha{
+    display: inline-block;
+    position: relative;
+    left: 450px;
+    bottom: 10px;
+   }
+
+   .btn{
+    background-color: #f26d21;
+    text-decoration: none;
     color: white;
-   
-}
+    margin: -2px  10px  0px  15px;
+    padding: 0px 16px;
+    display: inline-block;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    background-image: none;
+    border-radius: 4px;
+    border: 1px solid #f26d21; 
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15px;
+    margin-top: -2px;
+    margin-right: 40px;
+    padding: 0 16px;
+    min-width: 112px;
+    height: 32px;
+    line-height: 32px;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    
+   }
+
+   .btn:hover{
+    background-color:#c45211 ;
+   }
+
+   .list-inline{
+    position: relative;
+    left: 875px;
+   }
